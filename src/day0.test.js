@@ -13,19 +13,8 @@ const consoleSpy = require("./consoleSpy");
 const console = consoleSpy();
 
 describe("0", () => {
-  // beforeEach(() => {
-  //   const log = jest.spyOn(console, "log");
-  //   log.mockImplementation(() => {});
-  //   const error = jest.spyOn(console, "error");
-  //   error.mockImplementation(() => {});
-  //   spies.log = log;
-  //   spies.error = error;
-  // });
-
   afterEach(() => {
     console.reset();
-    // spies.log.mockRestore();
-    // spies.error.mockRestore();
   });
 
   afterAll(() => {

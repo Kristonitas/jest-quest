@@ -1,14 +1,14 @@
 Install
 
-`npm i`
+`$ npm i`
 
 Test
 
-`npm run test`
+`$ npm run test`
 
 Check the output/logs of the tasks
 
-`npm start`
+`$ npm start`
 
 The tasks will be named "day0.js", "day1.js"... Partial or full solution can be seen in the test files "day0.test.js", "day1.test.js"...
 
@@ -35,3 +35,11 @@ Snapshots:   0 total
 Time:        1.295 s
 Ran all test suites.
 ```
+
+A specific test day can be checked
+
+`$ npm run test -- day1`
+
+Or even a specific task
+
+`$ npm run test -- day1 --testNamePattern task4`
