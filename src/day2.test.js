@@ -67,6 +67,6 @@ describe("2", () => {
 
     expect(solution([[1], [2], 3, 4, 5])).toEqual([1, 2, 3, 4, 5]);
     expect(solution([[[1, 2, 3, 4, 5]]])).toEqual([1, 2, 3, 4, 5]);
-    expect(task1(numbers)).toEqual(solution(text));
+    expect(task2(numbers)).toEqual(solution(text));
   });
 });

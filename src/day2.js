@@ -80,7 +80,9 @@ const task1 = (numbers) => {};
 // Flatten an array
 // Example input: [[1, 2], 3, [[4], 5, 6]], example output: [1, 2, 3, 4, 5, 6]
 const task2 = (arr) => {};
+
 module.exports = {
   task0,
   task1,
+  task2,
 };
